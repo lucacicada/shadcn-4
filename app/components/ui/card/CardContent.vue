@@ -9,7 +9,7 @@
 
 @layer components {
   .ui-card-content {
-    @apply rounded-lg border bg-card text-card-foreground shadow-sm;
+    @apply p-6 pt-0;
   }
 }
 </style>
