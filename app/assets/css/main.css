@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@theme  {
+  --color-background: light-dark(hsl(0 0% 100%), hsl(0 0% 3.9%));
+  --color-foreground: light-dark(hsl(0 0% 3.9%), hsl(0 0% 98%));
+
+  --color-card: light-dark(hsl(0 0% 100%), hsl(0 0% 3.9%));
+  --color-card-foreground: light-dark(hsl(0 0% 3.9%), hsl(0 0% 98%));
+
+  --color-popover: light-dark(hsl(0 0% 100%), hsl(0 0% 3.9%));
+  --color-popover-foreground: light-dark(hsl(0 0% 3.9%), hsl(0 0% 98%));
+
+  --color-primary: light-dark(hsl(0 0% 9%), hsl(0 0% 98%));
+  --color-primary-foreground: light-dark(hsl(0 0% 98%), hsl(0 0% 9%));
+
+  --color-secondary: light-dark(hsl(0 0% 96.1%), hsl(0 0% 14.9%));
+  --color-secondary-foreground: light-dark(hsl(0 0% 9%), hsl(0 0% 98%));
+
+  --color-muted: light-dark(hsl(0 0% 96.1%), hsl(0 0% 14.9%));
+  --color-muted-foreground: light-dark(hsl(0 0% 45.1%), hsl(0 0% 63.9%));
+
+  --color-accent: light-dark(hsl(0 0% 96.1%), hsl(0 0% 14.9%));
+  --color-accent-foreground: light-dark(hsl(0 0% 9%), hsl(0 0% 98%));
+
+  --color-destructive: light-dark(hsl(0 84.2% 60.2%), hsl(0 62.8% 30.6%));
+  --color-destructive-foreground: light-dark(hsl(0 0% 98%), hsl(0 0% 98%));
+
+  --color-border: light-dark(hsl(0 0% 89.8%), hsl(0 0% 14.9%));
+  --color-input: light-dark(hsl(0 0% 89.8%), hsl(0 0% 14.9%));
+  --color-ring: light-dark(hsl(0 0% 3.9%), hsl(0 0% 83.1%));
+}

@@ -1,0 +1,5 @@
+export { default as Avatar } from './Avatar.vue'
+export { default as AvatarFallback } from './AvatarFallback.vue'
+export { default as AvatarImage } from './AvatarImage.vue'
+export type { AvatarVariants } from './Avatar.vue'
+export { avatarVariants } from './Avatar.vue'
