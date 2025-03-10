@@ -22,7 +22,7 @@ const forwarded = useForwardProps(props)
 
 @layer components {
   .ui-CommandList {
-    @apply -mx-1 h-px bg-border;
+    @apply max-h-[300px] overflow-y-auto overflow-x-hidden;
   }
 }
 </style>
