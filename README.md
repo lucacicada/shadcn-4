@@ -2,49 +2,64 @@
 
 Difference from shadcn 3:
 
-- No `tailwind-merge`
-- `tailwind 4` obviously
+- `tailwind 4` (obviously)
 - `@layer components`
+- `defineModel`
+- No `tailwind-merge`
+- No `delegatedProps`
+- No `useVModel`
 
 ## Components
 
-- [x] alert
-- [x] alert-dialog
-- [x] aspect-ratio
-- [x] avatar
-- [x] badge
-- [x] breadcrumb
-- [x] button
-- [x] card
-- [x] checkbox
-- [x] collapsible
-- [x] context-menu
-- [x] dialog
-- [x] dropdown-menu
-- [x] hover-card
-- [x] input
-- [x] label
-- [x] menubar
-- [x] number-field
-- [x] pin-input
-- [x] popover
-- [x] progress
-- [x] radio-group
-- [x] resizable
-- [x] scroll-area
-- [x] select
-- [x] separator
-- [x] skeleton
-- [x] slider
-- [x] stepper
-- [x] switch
-- [x] table
-- [x] tabs
-- [x] tags-input
-- [x] textarea
-- [x] toggle
-- [x] toggle-group
-- [x] tooltip
+- [ ] [Accordion](https://lucacicada.github.io/shadcn-4/docs/components/accordion)
+- [x] [Alert](https://lucacicada.github.io/shadcn-4/docs/components/alert)
+- [x] [Alert Dialog](https://lucacicada.github.io/shadcn-4/docs/components/alert-dialog)
+- [x] [Aspect Ratio](https://lucacicada.github.io/shadcn-4/docs/components/aspect-ratio)
+- [x] [Avatar](https://lucacicada.github.io/shadcn-4/docs/components/avatar)
+- [x] [Badge](https://lucacicada.github.io/shadcn-4/docs/components/badge)
+- [x] [Breadcrumb](https://lucacicada.github.io/shadcn-4/docs/components/breadcrumb)
+- [x] [Button](https://lucacicada.github.io/shadcn-4/docs/components/button)
+- [ ] [Calendar](https://lucacicada.github.io/shadcn-4/docs/components/calendar)
+- [x] [Card](https://lucacicada.github.io/shadcn-4/docs/components/card)
+- [ ] [Carousel](https://lucacicada.github.io/shadcn-4/docs/components/carousel)
+- [x] [Checkbox](https://lucacicada.github.io/shadcn-4/docs/components/checkbox)
+- [x] [Collapsible](https://lucacicada.github.io/shadcn-4/docs/components/collapsible)
+- [ ] [Combobox](https://lucacicada.github.io/shadcn-4/docs/components/combobox)
+- [x] [Command](https://lucacicada.github.io/shadcn-4/docs/components/command)
+- [x] [Context Menu](https://lucacicada.github.io/shadcn-4/docs/components/context-menu)
+- [x] [Dialog](https://lucacicada.github.io/shadcn-4/docs/components/dialog)
+- [ ] [Drawer](https://lucacicada.github.io/shadcn-4/docs/components/drawer)
+- [x] [Dropdown Menu](https://lucacicada.github.io/shadcn-4/docs/components/dropdown-menu)
+- [ ] [Form](https://lucacicada.github.io/shadcn-4/docs/components/form)
+- [x] [Hover Card](https://lucacicada.github.io/shadcn-4/docs/components/hover-card)
+- [x] [Input](https://lucacicada.github.io/shadcn-4/docs/components/input)
+- [x] [Label](https://lucacicada.github.io/shadcn-4/docs/components/label)
+- [x] [Menubar](https://lucacicada.github.io/shadcn-4/docs/components/menubar)
+- [x] [Navigation Menu](https://lucacicada.github.io/shadcn-4/docs/components/navigation-menu)
+- [x] [Number Field](https://lucacicada.github.io/shadcn-4/docs/components/number-field)
+- [ ] [Pagination](https://lucacicada.github.io/shadcn-4/docs/components/pagination)
+- [x] [Pin Input](https://lucacicada.github.io/shadcn-4/docs/components/pin-input)
+- [x] [Popover](https://lucacicada.github.io/shadcn-4/docs/components/popover)
+- [x] [Progress](https://lucacicada.github.io/shadcn-4/docs/components/progress)
+- [x] [Radio Group](https://lucacicada.github.io/shadcn-4/docs/components/radio-group)
+- [x] [Range Calendar](https://lucacicada.github.io/shadcn-4/docs/components/range-calendar)
+- [x] [Resizable](https://lucacicada.github.io/shadcn-4/docs/components/resizable)
+- [x] [Scroll Area](https://lucacicada.github.io/shadcn-4/docs/components/scroll-area)
+- [x] [Select](https://lucacicada.github.io/shadcn-4/docs/components/select)
+- [x] [Separator](https://lucacicada.github.io/shadcn-4/docs/components/separator)
+- [ ] [Sheet](https://lucacicada.github.io/shadcn-4/docs/components/sheet)
+- [ ] [Sidebar](https://lucacicada.github.io/shadcn-4/docs/components/sidebar)
+- [x] [Skeleton](https://lucacicada.github.io/shadcn-4/docs/components/skeleton)
+- [x] [Slider](https://lucacicada.github.io/shadcn-4/docs/components/slider)
+- [x] [Stepper](https://lucacicada.github.io/shadcn-4/docs/components/stepper)
+- [x] [Switch](https://lucacicada.github.io/shadcn-4/docs/components/switch)
+- [x] [Table](https://lucacicada.github.io/shadcn-4/docs/components/table)
+- [x] [Tabs](https://lucacicada.github.io/shadcn-4/docs/components/tabs)
+- [x] [Tags Input](https://lucacicada.github.io/shadcn-4/docs/components/tags-input)
+- [x] [Textarea](https://lucacicada.github.io/shadcn-4/docs/components/textarea)
+- [x] [Toggle](https://lucacicada.github.io/shadcn-4/docs/components/toggle)
+- [x] [Toggle Group](https://lucacicada.github.io/shadcn-4/docs/components/toggle-group)
+- [x] [Tooltip](https://lucacicada.github.io/shadcn-4/docs/components/tooltip)
 
 ## Why @layer components?
 
