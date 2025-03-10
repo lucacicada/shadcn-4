@@ -30,6 +30,10 @@ export default defineNuxtConfig({
     head: {
       titleTemplate: '%s - UI',
       title: 'UI',
+
+      style: [
+        { textContent: '@layer theme, base, components, utilities;' },
+      ],
     },
   },
 
