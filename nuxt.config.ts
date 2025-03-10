@@ -50,6 +50,10 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
+  features: {
+    inlineStyles: false,
+  },
+
   experimental: {
     payloadExtraction: false,
   },
@@ -61,6 +65,10 @@ export default defineNuxtConfig({
   },
 
   vite: {
+    build: {
+      cssCodeSplit: false,
+    },
+
     plugins: [
       tailwindcss(),
     ],
