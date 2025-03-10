@@ -39,6 +39,7 @@ const docs = [
   { to: '/docs/components/slider', label: 'Slider' },
   { to: '/docs/components/stepper', label: 'Stepper' },
   { to: '/docs/components/switch', label: 'Switch' },
+  { to: '/docs/components/sheet', label: 'Sheet' },
   { to: '/docs/components/table', label: 'Table' },
   { to: '/docs/components/tabs', label: 'Tabs' },
   { to: '/docs/components/tags-input', label: 'Tags input' },
