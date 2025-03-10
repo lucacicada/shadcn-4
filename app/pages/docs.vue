@@ -31,6 +31,7 @@ const docs = [
   { to: '/docs/components/pagination', label: 'Pagination' },
   { to: '/docs/components/progress', label: 'Progress' },
   { to: '/docs/components/radio-group', label: 'Radio group' },
+  { to: '/docs/components/range-calendar', label: 'Range calendar' },
   { to: '/docs/components/resizable', label: 'Resizable' },
   { to: '/docs/components/scroll-area', label: 'Scroll area' },
   { to: '/docs/components/select', label: 'Select' },
