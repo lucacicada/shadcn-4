@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+env:
+  NUXT_APP_BASE_URL: ${{ vars.NUXT_APP_BASE_URL }}
+
 jobs:
   build:
     runs-on: ubuntu-latest

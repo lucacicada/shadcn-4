@@ -23,11 +23,10 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/shadcn-4/',
-
     rootAttrs: {
       id: 'app',
     },
+
     head: {
       titleTemplate: '%s - UI',
       title: 'UI',
