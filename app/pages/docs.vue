@@ -14,6 +14,7 @@ const docs = [
   { to: '/docs/components/card', label: 'Card' },
   { to: '/docs/components/checkbox', label: 'Checkbox' },
   { to: '/docs/components/collapsible', label: 'Collapsible' },
+  { to: '/docs/components/combobox', label: 'Combobox' },
   { to: '/docs/components/command', label: 'Command' },
   { to: '/docs/components/context-menu', label: 'Context menu' },
   { to: '/docs/components/dialog', label: 'Dialog' },
