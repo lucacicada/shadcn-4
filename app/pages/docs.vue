@@ -18,6 +18,7 @@ const docs = [
   { to: '/docs/components/command', label: 'Command' },
   { to: '/docs/components/context-menu', label: 'Context menu' },
   { to: '/docs/components/dialog', label: 'Dialog' },
+  { to: '/docs/components/drawer', label: 'Drawer' },
   { to: '/docs/components/dropdown-menu', label: 'Dropdown menu' },
   { to: '/docs/components/hover-card', label: 'Hover card' },
   { to: '/docs/components/input', label: 'Input' },

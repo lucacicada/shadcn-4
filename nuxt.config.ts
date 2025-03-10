@@ -24,7 +24,10 @@ export default defineNuxtConfig({
 
   app: {
     rootAttrs: {
-      id: 'app',
+      'id': 'app',
+
+      // @ts-expect-error - Nuxt forgot to add types for custom attributes
+      'vaul-drawer-wrapper': '',
     },
 
     head: {
