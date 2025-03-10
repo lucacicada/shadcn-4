@@ -12,6 +12,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@internationalized/date": "^3.7.0",
     "@nuxt/content": "^3.3.0",
     "@unovis/vue": "^1.5.1",
     "@vueuse/core": "^12.8.2",
