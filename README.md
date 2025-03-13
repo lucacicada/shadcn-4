@@ -11,7 +11,7 @@ Difference from shadcn 3:
 
 ## Components
 
-- [ ] [Accordion](https://lucacicada.github.io/shadcn-4/docs/components/accordion)
+- [x] [Accordion](https://lucacicada.github.io/shadcn-4/docs/components/accordion)
 - [x] [Alert](https://lucacicada.github.io/shadcn-4/docs/components/alert)
 - [x] [Alert Dialog](https://lucacicada.github.io/shadcn-4/docs/components/alert-dialog)
 - [x] [Aspect Ratio](https://lucacicada.github.io/shadcn-4/docs/components/aspect-ratio)
@@ -21,7 +21,7 @@ Difference from shadcn 3:
 - [x] [Button](https://lucacicada.github.io/shadcn-4/docs/components/button)
 - [x] [Calendar](https://lucacicada.github.io/shadcn-4/docs/components/calendar)
 - [x] [Card](https://lucacicada.github.io/shadcn-4/docs/components/card)
-- [ ] [Carousel](https://lucacicada.github.io/shadcn-4/docs/components/carousel)
+- [x] [Carousel](https://lucacicada.github.io/shadcn-4/docs/components/carousel)
 - [x] [Checkbox](https://lucacicada.github.io/shadcn-4/docs/components/checkbox)
 - [x] [Collapsible](https://lucacicada.github.io/shadcn-4/docs/components/collapsible)
 - [x] [Combobox](https://lucacicada.github.io/shadcn-4/docs/components/combobox)
@@ -30,7 +30,7 @@ Difference from shadcn 3:
 - [x] [Dialog](https://lucacicada.github.io/shadcn-4/docs/components/dialog)
 - [x] [Drawer](https://lucacicada.github.io/shadcn-4/docs/components/drawer)
 - [x] [Dropdown Menu](https://lucacicada.github.io/shadcn-4/docs/components/dropdown-menu)
-- [ ] [Form](https://lucacicada.github.io/shadcn-4/docs/components/form)
+- [x] [Form](https://lucacicada.github.io/shadcn-4/docs/components/form)
 - [x] [Hover Card](https://lucacicada.github.io/shadcn-4/docs/components/hover-card)
 - [x] [Input](https://lucacicada.github.io/shadcn-4/docs/components/input)
 - [x] [Label](https://lucacicada.github.io/shadcn-4/docs/components/label)

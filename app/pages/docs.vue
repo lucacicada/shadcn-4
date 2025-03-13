@@ -4,6 +4,7 @@ useHead({
 })
 
 const docs = [
+  { to: '/docs/components/accordion', label: 'Accordion' },
   { to: '/docs/components/alert', label: 'Alert' },
   { to: '/docs/components/alert-dialog', label: 'Alert dialog' },
   { to: '/docs/components/aspect-ratio', label: 'Aspect ratio' },
@@ -15,11 +16,13 @@ const docs = [
   { to: '/docs/components/checkbox', label: 'Checkbox' },
   { to: '/docs/components/collapsible', label: 'Collapsible' },
   { to: '/docs/components/combobox', label: 'Combobox' },
+  { to: '/docs/components/carousel', label: 'Carousel' },
   { to: '/docs/components/command', label: 'Command' },
   { to: '/docs/components/calendar', label: 'Calendar' },
   { to: '/docs/components/context-menu', label: 'Context menu' },
   { to: '/docs/components/dialog', label: 'Dialog' },
   { to: '/docs/components/drawer', label: 'Drawer' },
+  { to: '/docs/components/form', label: 'Form' },
   { to: '/docs/components/dropdown-menu', label: 'Dropdown menu' },
   { to: '/docs/components/hover-card', label: 'Hover card' },
   { to: '/docs/components/input', label: 'Input' },
